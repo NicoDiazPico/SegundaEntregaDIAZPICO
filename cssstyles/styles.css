@@ -1,0 +1,542 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: black;
+   text-decoration: none;
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ body {
+   background: rgb(238, 238, 238);
+   background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(246, 246, 246, 1) 100%);
+ }
+
+ /*HEADER MOBILE*/
+ .header {
+   display: flex;
+   display: inline-block;
+   width: 100%;
+   padding-top: 15px;
+   background-image: url(./assets/1imagenPortada.jpg);
+   background-size: cover;
+   background-position: center;
+   box-shadow: 0px 0px 5px rgb(114, 114, 114);
+ }
+
+ .logo__textlogo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .header img {
+   height: 30px;
+ }
+
+ .header__title {
+   text-shadow: 1px 1px 15px #fff;
+   font-size: 25px;
+   margin-left: 10px;
+ }
+
+ .header__nav {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 7px;
+ }
+
+ .header__navbuttons {
+   display: inline-flex;
+   font-weight: 400;
+   font-size: 18px;
+   margin-left: 5px;
+   margin-right: 5px;
+   text-shadow: 0px 0px 10px #f6f6f6;
+ }
+
+ .header__navbuttons__con {
+   display: none;
+ }
+
+
+ /*COVER MOBILE*/
+ .cover {
+   display: none;
+ }
+
+
+ /*ARTICLES MOBILE*/
+
+ .article__products {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+ }
+
+ .article__remeras {
+   display: flex;
+   background-image: url(./assets/remeranegraFrente.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+   height: 200px;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .article__pantalones {
+   display: flex;
+   background-image: url(./assets/1pantalonPortada.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+   height: 200px;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+ }
+
+ .article__accesorios {
+   display: flex;
+   background-image: url(./assets/1accesoriosPortada.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+   height: 200px;
+   width: 90%;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .article__text {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0.494);
+   font-size: 28px;
+   font-weight: 600;
+   text-shadow: 0px 0px 10px #f6f6f6;
+ }
+
+
+ /*SOCIAL NETWORKS MOBILE*/
+ .socialNetwoks {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 30px;
+   background-color: rgb(84, 119, 255);
+   margin-top: 10px;
+ }
+
+ .socialNetwoks__list {
+   display: inline;
+   font-weight: 400;
+ }
+
+ .socialNetwoks a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+ }
+
+ /*FOOTER MOBILE*/
+ .footer {
+   background-color: black;
+   height: auto;
+   width: 100%;
+   padding: 15px;
+ }
+
+ .footer__list {
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .footer__list a {
+   color: white;
+ }
+
+ .footer__avisoslegales {
+   color: white
+ }
+
+ .footer__textoLegales {
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   font-weight: 100;
+   color: white;
+ }
+
+
+
+/*PAGE 2 and 3!!!! SHIRTS and PANTS MOBILE*/
+ .shirts {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   margin-top: 10px;
+ }
+
+ .article__shirts {
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+   height: 260px;
+   width: 40%;
+   background-color: #f6f6f6;
+   margin: 10px;
+   text-align: center;
+   padding: 5px;
+   overflow: hidden;
+ }
+
+ .article__shirts img {
+   object-fit: cover;
+   object-position: center;
+   height: 75%;
+   width: 85%;
+ }
+
+ .botonShowroom {
+   display: none
+ }
+
+
+
+ /*PAGE 4 and 5!!!! SHOWROOM and CONTACT MOBILE*/
+
+ .conteiner__maps {
+   height: 450px;
+   width: 90%;
+   margin: 20px;
+   border-color: black;
+   border-style: solid;
+   border-width: 2px;
+ }
+
+ .anchoMapa {
+   width: 100%;
+ }
+
+ .contacto {
+   margin: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 29px;
+ }
+
+
+
+
+
+/*REMERA NEGRA MOBILE*/
+
+.indicador{
+  background-color: burlywood;
+  height: 35px;}
+
+.remeragrande{
+  background-color: red;
+  height: 35px;}
+
+.remerapequeña1 {
+  background-color: blue;
+  height: 35px;}
+
+.remerapequeña2 {
+  background-color: green;
+  height: 35px;}
+
+.boton__showroom {
+  background-color: aqua;
+  height: 35px;
+}
+
+.boton__compras{
+  background-color:aquamarine;
+  height: 35px;
+}
+
+
+
+
+
+ /*HEADER TABLET*/
+ @media screen and (min-width: 420px) {
+
+   .header {
+     background: rgb(238, 238, 238);
+     background: linear-gradient(90deg, rgba(238, 238, 238, 1) 0%, rgba(255, 123, 123, 1) 66%, rgba(246, 246, 246, 1) 93%);
+     height: auto;
+     padding-bottom: 7px;
+   }
+
+   .header img {
+     height: 40px;
+   }
+
+   .header__title {
+     font-size: 35px;
+     margin-left: 25px;
+     text-shadow: none;
+   }
+
+   .header__nav {
+     display: flex;
+   }
+
+   .header__navbuttons {
+     display: inline-flex;
+     font-weight: 600;
+     margin-top: 20px;
+     background-color: rgba(255, 255, 255, 0.494);
+     height: 30px;
+     width: 18vw;
+     min-width: fit-content;
+     max-width: 140px;
+     border-radius: 7px;
+     align-items: center;
+     justify-content: center;
+     text-shadow: none;
+   }
+
+   .header__navbuttons__con {
+     font-weight: 600;
+     display: inline-flex;
+     margin-top: 20px;
+     background-color: rgba(255, 255, 255, 0.494);
+     height: 30px;
+     width: 18vw;
+     max-width: 140px;
+     border-radius: 7px;
+     align-items: center;
+     justify-content: center;
+   }
+
+   /*COVER TABLET*/
+   .cover__conteiner {
+     display: inline-block;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+   }
+
+   .cover {
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     height: 25vh;
+     width: 90%;
+     margin: 0 auto;
+     border-radius: 15px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+     background-image: url("./assets/1imagenPortada.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+
+   .cover__text {
+     color: white;
+     text-shadow: black 0px 0px 5px;
+     font-size: 30px;
+     width: 75%;
+     padding: 20px;
+   }
+
+
+   /*ARTICLES TABLET*/
+   .article__products {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+     font-weight: 400;
+     margin-top: 20px;
+   }
+
+   .article__remeras {
+     display: flex;
+     border-radius: 15px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+     height: 45vh;
+     min-height: 300px;
+     max-height: 400px;
+     width: 40vw;
+     min-width: 220px;
+     max-width: 320px;
+     margin: 15px;
+     align-items: center;
+     justify-content: center;
+     background-image: url("./assets/remeranegraFrente.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+
+   .article__pantalones {
+     display: flex;
+     border-radius: 15px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+     height: 45vh;
+     min-height: 300px;
+     max-height: 400px;
+     width: 40vw;
+     min-width: 220px;
+     max-width: 320px;
+     margin: 15px;
+     align-items: center;
+     justify-content: center;
+     background-image: url("./assets/1pantalonPortada.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+
+   .article__accesorios {
+     display: flex;
+     border-radius: 15px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+     height: 45vh;
+     min-height: 300px;
+     max-height: 400px;
+     width: 40vw;
+     min-width: 220px;
+     max-width: 320px;
+     margin: 15px;
+     align-items: center;
+     justify-content: center;
+     background-image: url("./assets/1accesoriosPortada.jpg");
+     background-size: cover;
+     background-position: center;
+   }
+
+   .article__text {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+     width: 100%;
+     background-color: rgba(255, 255, 255, 0.494);
+     font-size: larger;
+     font-weight: 600;
+   }
+
+
+   /*SOCIAL NETWORKS TABLET*/
+   .socialNetwoks {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 70px;
+     background-color: rgb(84, 119, 255);
+   }
+
+   .socialNetwoks__list {
+     display: inline-flex;
+     font-weight: 600;
+     margin-left: 7px;
+     margin-right: 7px;
+     background-color: #cecece;
+     height: 30px;
+     min-width: fit-content;
+     width: 15vw;
+     max-width: 150px;
+     border-radius: 7px;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .socialNetwoks a {
+     color: black;
+   }
+
+
+   /*FOOTER TABLET*/
+   .footer {
+     background-color: black;
+     height: auto;
+     padding: 15px;
+     color: #f6f6f6;
+   }
+
+   .footer__list {
+     font-size: 14px;
+     font-weight: 400;
+   }
+
+   .footer__list a {
+     color: #f6f6f6;
+   }
+
+   .textoLegales {
+     font-size: 12px;
+     font-weight: 100;
+   }
+
+
+   /*PAGE 2 ARTICLES SHIRTS TABLET*/
+   .shirts {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+     margin-top: 20px;
+   }
+
+   .article__shirts {
+     text-decoration: none;
+     border-radius: 10px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+     height: 45vh;
+     width: 40vw;
+     min-width: 220px;
+     max-width: 320px;
+     background-color: #f6f6f6;
+     margin: 15px;
+     text-align: center;
+     padding: 10px;
+     overflow: hidden;
+   }
+
+   .article__shirts img {
+     object-fit: cover;
+     object-position: center;
+     height: 75%;
+     width: 85%;
+   }
+
+   .botonShowroom {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(239, 0, 0);
+     height: 35px;
+     min-width: 150px;
+     width: 20vw;
+     max-width: 180px;
+     font-size: 20px;
+     margin: 15px;
+     border-radius: 15px;
+     box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+   }
+
+   .botonShowroom a {
+     color: black;
+   }
+
+ }
