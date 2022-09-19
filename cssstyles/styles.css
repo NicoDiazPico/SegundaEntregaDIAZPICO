@@ -61,45 +61,52 @@ body {
   text-shadow: 0px 0px 5px #f6f6f6;
 }
 
+.header__navbuttons a:hover{
+  transition: 1s;
+  background-color: rgba(195, 195, 195, 0.478);
+  border-radius: 5px;
+}
+
 .header__navbuttons__con {
   display: none;
 }
 
-
-
-
 /*COVER MOBILE*/
- .cover {
-   display: none;
- }
+.cover {
+  display: none;
+}
 
 
- /*ARTICLES MOBILE*/
+/*ARTICLES MOBILE*/
 
- .article__products {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   text-align: center;
- }
+.article__products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 
- .article__remeras {
-   display: flex;
-   background-image: url(./assets/remeranegraFrente.jpg);
-   background-size: cover;
-   background-position: center;
-   border-radius: 10px;
-   box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
-   height: 200px;
-   width: 90%;
-   align-items: center;
-   justify-content: center;
-   margin-top: 10px;
-   margin-bottom: 10px;
- }
+.article__remeras {
+  display: flex;
+  background-image: url(./assets/remeranegraFrente.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px rgb(150, 150, 150);
+  height: 200px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.article__remeras :hover{
+  transition: 1s;
+  background-color: white;
+}
 
- .article__pantalones {
+.article__pantalones {
    display: flex;
    background-image: url(./assets/1pantalonPortada.jpg);
    background-size: cover;
@@ -112,6 +119,11 @@ body {
    justify-content: center;
    margin-bottom: 10px;
  }
+
+ .article__pantalones :hover{
+  transition: 1s;
+  background-color: white;
+}
 
  .article__accesorios {
    display: flex;
@@ -126,6 +138,11 @@ body {
    justify-content: center;
  }
 
+ .article__accesorios :hover{
+  transition: 1s;
+  background-color: white;
+}
+
  .article__text {
    display: flex;
    align-items: center;
@@ -138,25 +155,36 @@ body {
    text-shadow: 0px 0px 10px #f6f6f6;
  }
 
+ .article__text a {
+  text-decoration: none;
+  color: black;
+ }
 
  /*SOCIAL NETWORKS MOBILE*/
- .socialNetwoks {
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+ .socialNetworks {
    height: 30px;
    background-color: rgb(84, 119, 255);
    margin-top: 10px;
  }
 
- .socialNetwoks__list {
-   display: inline;
-   font-weight: 400;
- }
+.socialNetworks__conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
 
- .socialNetwoks a {
+ .socialNetworks a {
    color: rgb(255, 255, 255);
    text-decoration: none;
+ }
+
+ .socialNetworks__conteiner a:hover{
+  transition: 1s;
+  background-color: rgba(23, 42, 42, 0.57);
+  border-radius: 5px;
+  transform: scale(1,1.2);
  }
 
  /*FOOTER MOBILE*/
@@ -164,7 +192,6 @@ body {
    background-color: black;
    height: auto;
    width: 100%;
-   padding: 15px;
  }
 
  .footer__list {
@@ -174,6 +201,7 @@ body {
 
  .footer__list a {
    color: white;
+   text-decoration: none;
  }
 
  .footer__avisoslegales {
@@ -181,23 +209,25 @@ body {
  }
 
  .footer__textoLegales {
-   list-style: none;
-   font-family: Arial, Helvetica, sans-serif;
    font-size: 12px;
    font-weight: 100;
-   color: white;
- }
+   color: white;}
 
 
 
  /*PAGE 2 and 3!!!! SHIRTS and PANTS MOBILE*/
- .shirts {
-   display: flex;
+.shirts {
+   display:flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
    text-align: center;
    margin-top: 10px;
+ }
+
+ .shirts :hover{
+  transition: 1s;
+  background-color: rgba(183, 183, 183, 0.553);
  }
 
  .article__shirts {
@@ -217,6 +247,18 @@ body {
    object-position: center;
    height: 75%;
    width: 85%;
+ }
+
+ .article__shirts h3{
+  font-size: medium;
+ }
+
+ .article__shirts a{
+  text-decoration: none;
+ }
+
+ .article__shirts p {
+  font-size: small;
  }
 
  .botonShowroom {
